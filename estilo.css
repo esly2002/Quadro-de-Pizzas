@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family:font_pizza;
+    src: url(bobaCups.tff)
+}
+
+header{
+    height: 500px;
+    background-image: url(imagens/pexels-vincent-rivaud-2471171.jpg);
+    background-repeat: none ;
+    background-size: cover; /*ajustar imagem*/
+    background-position: center; /*ajustar imagem background*/
+}
+
+nav ul{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+}
+li{
+    font-family:font_pizza;
+    font-size: 40px;
+}
+h1{
+    color: rgb(2, 1, 1);
+    text-align: center;
+    font-family: font_pizza;
+    font-size: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(242, 244, 244);
+}
+.card{
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+}
+#img.card{
+
+}
+#texto-card{
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+#titulo-card{
+    height: 80px;
+    font-family: font_pizza;
+    font-size: 40px;
+}
+p{
+    font-family: font_pizza;
+    font-size: 20px;
+    color: rgb(242, 8, 8);
+    text-align: center;
+
+}
